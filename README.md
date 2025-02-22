@@ -1,56 +1,55 @@
-# multi-Api-Use-Gpt-Chat-bot-
-# Multi-API Chatbot
+# 🤖 Multi-API Chatbot
 
-A chatbot application built using Tkinter and CustomTkinter that supports multiple AI APIs including DeepSeek, ChatGPT, Blackbox AI, v0.dev, and Kimi (Moonshot.cn). The application allows users to chat with AI models, save chat history, and upload files for further interaction.
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)
+![Tkinter](https://img.shields.io/badge/Tkinter-GUI-orange?logo=python)
+![CustomTkinter](https://img.shields.io/badge/CustomTkinter-UI-green)
+![OpenAI](https://img.shields.io/badge/OpenAI-API-red?logo=openai)
 
-## Features
-- Supports multiple AI APIs
-- Streamed responses for ChatGPT
-- Chat history auto-save and load
-- File uploads (documents, images, videos, audio)
-- Model selection for ChatGPT
-- Copy and replay chat history
-- Regenerate last response and continue conversation
+A multi-API chatbot application built with Python, Tkinter, and CustomTkinter. It supports multiple AI models like:
 
-## Installation
+✅ **DeepSeek AI**  
+✅ **OpenAI's ChatGPT**  
+✅ **Blackbox AI**  
+✅ **Kimi (Moonshot.cn)**  
+✅ **v0.dev**  
 
-### Prerequisites
-Ensure you have Python installed (>=3.7). Install dependencies using:
+---
+
+## 🛠 Features
+
+- 🔹 **Multi-API Support**: Seamlessly switch between AI models.  
+- 📝 **Chat History Management**: Automatically saves and loads conversations.  
+- 💬 **Regenerate & Continue Chat**: Regenerate responses or continue conversations.  
+- 📁 **File Upload**: Upload documents, images, videos, and audio.  
+- 🎨 **Modern UI**: Built with CustomTkinter for an enhanced experience.  
+- 🛠 **API Key Management**: Store and reuse API keys securely.  
+
+---
+
+## 📦 Installation
+
+1️⃣ Clone the repository  
 ```sh
+git clone https://github.com/laravelgpt/multi-Api-Use-Gpt-Chat-bot.git
+cd multi-Api-Use-Gpt-Chat-bot
+
+
 pip install -r requirements.txt
-```
 
-### Running the Application
-```sh
-python main.py
-```
 
-## Configuration
-The application requires an API Key. You can set it up when launching the application, and it will be stored in `config.json`.
+⚡ Usage
+1️⃣ Run the script
 
-## APIs Supported
-- **DeepSeek**
-- **ChatGPT (OpenAI)**
-- **Blackbox AI**
-- **v0.dev**
-- **Kimi (Moonshot.cn)**
+python chatbot.py
 
-## Usage
-1. Launch the application and enter your API Key.
-2. Select the desired AI API from the dropdown.
-3. Start chatting by typing in the input box and pressing send.
-4. Use additional features like file uploads, chat history management, and model selection for ChatGPT.
+2️⃣ Enter your API key
+3️⃣ Select an AI model
+4️⃣ Start chatting!
 
-## File Uploads
-The application supports uploading the following file types:
-- **Documents**: PDF, DOC, DOCX, TXT
-- **Images**: PNG, JPG, JPEG, GIF
-- **Videos**: MP4, AVI, MOV
-- **Audio**: MP3, WAV, OGG
 
-## Chat History
-Chat history is automatically saved in the `chat_history` directory and can be loaded within the application.
 
-## License
-This project is open-source and available under the MIT License.
+🖼️ Screenshots
+![image](https://github.com/user-attachments/assets/38c52ec9-09bd-4fd9-ba5e-83463c1cae3e)
+
+
 
